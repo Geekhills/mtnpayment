@@ -153,11 +153,12 @@ const config = {
     "db"
   ],
   "activeProvider": "mongodb",
+  "postinstall": false,
   "inlineDatasources": {
     "db": {
       "url": {
         "fromEnvVar": "DATABASE_URL",
-        "value": "mongodb+srv://geekhillorient:UKkinlrVpzCh44ls@cluster0.ppkwj.mongodb.net/momo?retryWrites=true&w=majority&appName=Cluster0"
+        "value": null
       }
     }
   },
